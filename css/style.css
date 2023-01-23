@@ -130,12 +130,11 @@ main section{
     gap: 40px;
 }
 
-
 .image-standards{
 
     background-color: rgba(199, 199, 199, 0.4);
     height: 250px;
-    width: 300px;
+    width: 350px;
     border-radius: 10px;
 }
 
@@ -144,7 +143,8 @@ main section{
     flex-direction: column;
 
     height: 250px;
-    width: 200px;   
+    width: 250px;   
+    gap: 20px;
 }
 
 .title-standards{
@@ -187,8 +187,8 @@ main section{
 .fourth-section-image{
 
     background-color: rgba(199, 199, 199, 0.4);
-    width: 600px;
-    height: 250px;
+    width: 700px;
+    height: 350px;
     border-radius: 10px;
 }
 
