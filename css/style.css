@@ -1,0 +1,67 @@
+.centered-container{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header{
+
+    height: 500px;
+    background-color: rgb(76, 76, 255);
+}
+
+#nav-inner{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    /* test */
+    background-color: green;
+    height: 100px;
+}
+
+.logo{
+
+    height: 60px;
+    width: 100px;
+    background-color: rgb(1, 68, 1);
+    /* test */
+}
+
+.links{
+    display: flex;
+  
+    height: 60px;
+      /* test */
+    
+}
+
+.links ul{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 25px;
+    list-style-type: none;
+}
+
+.links li{
+   
+    background-color: rgb(1, 68, 1);
+    width: 60px;
+    height: 30px;
+     /* test */
+}
+
+.login{
+
+    background-color: rgb(1, 68, 1);
+    height: 60px;
+    width: 100px;
+    /* test */
+}
