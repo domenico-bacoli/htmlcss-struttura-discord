@@ -4,7 +4,6 @@
     margin-right: auto;
 }
 
-
 header{
 
     height: 450px;
@@ -118,3 +117,101 @@ header{
 .introduction-btn .browser-link{
     background-color: black;
 }
+
+#first-section,
+#second-section,
+#third-section{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    height: 400px; 
+    gap: 40px;
+}
+
+
+.first-section-image,
+.second-section-image,
+.third-section-image{
+
+    background-color: black;
+    height: 250px;
+    width: 300px;
+}
+
+.first-section-content,
+.second-section-content,
+.third-section-content{
+    display: flex;
+    flex-direction: column;
+
+    height: 250px;
+    width: 200px;   
+}
+
+.first-section-title,
+.second-section-title,
+.third-section-title{
+
+    background-color: red;
+    height: 180px;
+    width: 100%;
+}
+
+.first-section-paragraph,
+.second-section-paragraph,
+.third-section-paragraph{
+
+    background-color: aqua;
+    height: 100%;
+}
+
+#fourth-section{
+    border: 1px solid red;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 800px;
+    gap: 30px;
+}
+
+.fourth-section-title{
+
+    background-color: blue;
+    width: 500px;
+    height: 30px;
+}
+
+.fourth-section-paragraph{
+    background-color: red;
+    width: 550px;
+    height: 60px;
+}
+
+.fourth-section-image{
+
+    background-color: burlywood;
+    width: 600px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.fourth-section-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+   
+}
+
+.fourth-section-description-link{
+
+    background-color: blue;
+    height: 30px;
+    width: 300px;
+}
+
