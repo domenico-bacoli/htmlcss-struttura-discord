@@ -23,7 +23,7 @@ header{
     align-items: center;
 
     /* test */
-    background-color: rgba(0, 151, 0, 0.5);
+    background-color: rgba(0, 98, 255, 0.4);
     height: 100px;
     margin-bottom: 80px;
 }
@@ -32,7 +32,7 @@ header{
 
     height: 60px;
     width: 100px;
-    background-color: rgba(0, 105, 0, 0.5);
+    background-color: rgba(0, 98, 255, 0.4);
     /* test */
 }
 
@@ -57,7 +57,7 @@ header{
 
 .links li{
    
-    background-color: rgba(0, 105, 0, 0.5);
+    background-color: rgba(0, 98, 255, 0.4);
     width: 60px;
     height: 30px;
      /* test */
@@ -65,7 +65,7 @@ header{
 
 .login{
 
-    background-color: rgba(0, 105, 0, 0.5);
+    background-color: rgba(0, 98, 255, 0.4);
     height: 60px;
     width: 100px;
     /* test */
@@ -262,9 +262,17 @@ footer ul{
 }
 
 .col-1-social-icon{
-    background-color: wheat;
+    display: flex;
+
     height: 20px;
-    width: 100px;
+    width: 120px;
+    gap: 14px;
+}
+
+.social-image{
+    width: 30px;
+    background-color: white;
+    border-radius: 4px;
 }
 
 .col ul{
