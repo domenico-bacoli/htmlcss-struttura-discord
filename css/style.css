@@ -4,6 +4,11 @@
     margin-right: auto;
 }
 
+main section:nth-child(2),
+main section:nth-child(4){
+    background-color: rgb(246, 246, 246);
+}
+
 header{
 
     height: 450px;
@@ -18,7 +23,7 @@ header{
     align-items: center;
 
     /* test */
-    background-color: rgb(0, 151, 0);
+    background-color: rgba(0, 151, 0, 0.5);
     height: 100px;
     margin-bottom: 80px;
 }
@@ -27,7 +32,7 @@ header{
 
     height: 60px;
     width: 100px;
-    background-color: rgb(0, 105, 0);
+    background-color: rgba(0, 105, 0, 0.5);
     /* test */
 }
 
@@ -52,7 +57,7 @@ header{
 
 .links li{
    
-    background-color: rgb(0, 105, 0);
+    background-color: rgba(0, 105, 0, 0.5);
     width: 60px;
     height: 30px;
      /* test */
@@ -60,7 +65,7 @@ header{
 
 .login{
 
-    background-color: rgb(0, 105, 0);
+    background-color: rgba(0, 105, 0, 0.5);
     height: 60px;
     width: 100px;
     /* test */
@@ -83,7 +88,7 @@ header{
 
 .introduction-paragraph{
 
-    background-color: aqua;
+    background-color: rgba(255, 0, 0, 0.2);
     width: 400px;
     height: 80px;
     /* test */
@@ -94,8 +99,6 @@ header{
     display: flex;
     justify-content: space-around;
     gap: 10px;
-  
-
 }
 
 .btn{
@@ -115,14 +118,13 @@ header{
 }
 
 .introduction-btn .browser-link{
-    background-color: black;
+    background-color: rgb(0, 0, 0, 0.8);
 }
 
 #first-section,
 #second-section,
 #third-section{
     display: flex;
-
     justify-content: center;
     align-items: center;
     
@@ -135,9 +137,10 @@ header{
 .second-section-image,
 .third-section-image{
 
-    background-color: black;
+    background-color: rgba(199, 199, 199, 0.4);
     height: 250px;
     width: 300px;
+    border-radius: 10px;
 }
 
 .first-section-content,
@@ -154,7 +157,7 @@ header{
 .second-section-title,
 .third-section-title{
 
-    background-color: red;
+    background-color:rgba(0, 0, 0, 0.6);
     height: 180px;
     width: 100%;
 }
@@ -163,7 +166,7 @@ header{
 .second-section-paragraph,
 .third-section-paragraph{
 
-    background-color: aqua;
+    background-color: rgba(255, 0, 0, 0.2);
     height: 100%;
 }
 
@@ -180,20 +183,20 @@ header{
 
 .fourth-section-title{
 
-    background-color: blue;
+    background-color: rgba(0, 0, 0, 0.6);
     width: 500px;
     height: 30px;
 }
 
 .fourth-section-paragraph{
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0.2);
     width: 550px;
     height: 60px;
 }
 
 .fourth-section-image{
 
-    background-color: burlywood;
+    background-color: rgba(199, 199, 199, 0.4);
     width: 600px;
     height: 250px;
     border-radius: 10px;
@@ -213,7 +216,7 @@ header{
 
 .fourth-section-description-link{
 
-    background-color: blue;
+    background-color: rgba(0, 0, 0, 0.6);
     height: 30px;
     width: 300px;
 }
@@ -230,8 +233,7 @@ footer ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    
+ 
     height: 400px;
     gap: 30px;
 }
