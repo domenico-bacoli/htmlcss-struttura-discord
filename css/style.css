@@ -7,7 +7,7 @@
 
 header{
 
-    height: 500px;
+    height: 450px;
     background-color: rgb(76, 76, 255);
 }
 
@@ -21,6 +21,7 @@ header{
     /* test */
     background-color: green;
     height: 100px;
+    margin-bottom: 80px;
 }
 
 .logo{
@@ -64,4 +65,56 @@ header{
     height: 60px;
     width: 100px;
     /* test */
+}
+
+#introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.introduction-title{
+
+    background-color: red;
+    width: 300px;
+    height: 20px;
+    /* test */
+}
+
+.introduction-paragraph{
+
+    background-color: aqua;
+    width: 400px;
+    height: 80px;
+    /* test */
+}
+
+.introduction-btn{
+
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  
+
+}
+
+.btn{
+
+    border: none;
+    border-radius: 15px;
+
+    width: 120px;
+    height: 30px;
+    /* test */
+
+}
+
+.introduction-btn .download-btn{   
+    background-color: white;
+
+}
+
+.introduction-btn .browser-link{
+    background-color: black;
 }
