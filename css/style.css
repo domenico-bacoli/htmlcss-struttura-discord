@@ -236,9 +236,15 @@ footer ul{
     gap: 30px;
 }
 
-.col-1{
+
+.col{
+    flex-grow: 1; 
+}
+
+.col.col-1{
     display: flex;
     flex-direction: column;
+    flex-grow: 2;
     gap: 10px;
 }
 
@@ -261,24 +267,16 @@ footer ul{
     width: 100px;
 }
 
-.col-2 ul,
-.col-3 ul,
-.col-4 ul,
-.col-5 ul{
+.col ul{
     
     display: flex;
     flex-direction: column;
     gap: 10px;
 
-    list-style-type: none;
-    
+    list-style-type: none;   
 }
 
-.col-2 li,
-.col-2 li,
-.col-3 li,
-.col-4 li,
-.col-5 li{
+.col li{
 
     background-color: white;
     height: 10px;
@@ -286,13 +284,8 @@ footer ul{
     
 }
 
-.col-2 li:first-child,
-.col-2 li:first-child,
-.col-3 li:first-child,
-.col-4 li:first-child,
-.col-5 li:first-child{
+.col li:first-child{
     background-color: rgb(113, 137, 216);
-
 }
 
 hr{
@@ -315,5 +308,9 @@ hr{
 }
 
 .sign-in button{
+
     background-color: rgb(113, 137, 216);
+    width: 50px;
+    height: 20px;
+    
 }
