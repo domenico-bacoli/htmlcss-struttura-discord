@@ -7,7 +7,7 @@
 header{
 
     height: 450px;
-    background-color: rgb(76, 76, 255);
+    background-color: rgba(0, 98, 255, 0.3);
 }
 
 #nav-inner{
@@ -18,7 +18,7 @@ header{
     align-items: center;
 
     /* test */
-    background-color: green;
+    background-color: rgb(0, 151, 0);
     height: 100px;
     margin-bottom: 80px;
 }
@@ -27,7 +27,7 @@ header{
 
     height: 60px;
     width: 100px;
-    background-color: rgb(1, 68, 1);
+    background-color: rgb(0, 105, 0);
     /* test */
 }
 
@@ -52,7 +52,7 @@ header{
 
 .links li{
    
-    background-color: rgb(1, 68, 1);
+    background-color: rgb(0, 105, 0);
     width: 60px;
     height: 30px;
      /* test */
@@ -60,7 +60,7 @@ header{
 
 .login{
 
-    background-color: rgb(1, 68, 1);
+    background-color: rgb(0, 105, 0);
     height: 60px;
     width: 100px;
     /* test */
@@ -75,7 +75,7 @@ header{
 
 .introduction-title{
 
-    background-color: red;
+    background-color: rgba(0, 0, 0, 0.6);
     width: 300px;
     height: 20px;
     /* test */
@@ -125,7 +125,7 @@ header{
 
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+    
     height: 400px; 
     gap: 40px;
 }
@@ -168,7 +168,6 @@ header{
 }
 
 #fourth-section{
-    border: 1px solid red;
 
     display: flex;
     flex-direction: column;
@@ -208,6 +207,10 @@ header{
    
 }
 
+.fourth-section-btn button{
+    background-color: rgb(113, 137, 216);
+}
+
 .fourth-section-description-link{
 
     background-color: blue;
@@ -215,3 +218,110 @@ header{
     width: 300px;
 }
 
+footer{
+    background-color: rgb(35, 39, 42);
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+#footer-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+    height: 400px;
+    gap: 30px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    gap: 30px;
+}
+
+.col-1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.col-1-description{
+    
+    background-color: rgb(113, 137, 216);
+    height: 20px;
+    width: 120px;
+}
+
+.col-1-language{
+    background-color: white;
+    height: 20px;
+    width: 80px;
+}
+
+.col-1-social-icon{
+    background-color: wheat;
+    height: 20px;
+    width: 100px;
+}
+
+.col-2 ul,
+.col-3 ul,
+.col-4 ul,
+.col-5 ul{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    list-style-type: none;
+    
+}
+
+.col-2 li,
+.col-2 li,
+.col-3 li,
+.col-4 li,
+.col-5 li{
+
+    background-color: white;
+    height: 10px;
+    width: 80px;
+    
+}
+
+.col-2 li:first-child,
+.col-2 li:first-child,
+.col-3 li:first-child,
+.col-4 li:first-child,
+.col-5 li:first-child{
+    background-color: rgb(113, 137, 216);
+
+}
+
+hr{
+
+    width: 100%;
+    border: 1px solid rgb(113, 137, 216);
+}
+
+.row-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+
+.footer-logo{
+    background-color: white;
+    height: 30px;
+    width: 100px;
+}
+
+.sign-in button{
+    background-color: rgb(113, 137, 216);
+}
