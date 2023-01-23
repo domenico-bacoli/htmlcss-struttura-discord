@@ -121,9 +121,7 @@ header{
     background-color: rgb(0, 0, 0, 0.8);
 }
 
-#first-section,
-#second-section,
-#third-section{
+main section{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -133,9 +131,7 @@ header{
 }
 
 
-.first-section-image,
-.second-section-image,
-.third-section-image{
+.image-standards{
 
     background-color: rgba(199, 199, 199, 0.4);
     height: 250px;
@@ -143,9 +139,7 @@ header{
     border-radius: 10px;
 }
 
-.first-section-content,
-.second-section-content,
-.third-section-content{
+.content-standards{
     display: flex;
     flex-direction: column;
 
@@ -153,18 +147,14 @@ header{
     width: 200px;   
 }
 
-.first-section-title,
-.second-section-title,
-.third-section-title{
+.title-standards{
 
     background-color:rgba(0, 0, 0, 0.6);
     height: 180px;
     width: 100%;
 }
 
-.first-section-paragraph,
-.second-section-paragraph,
-.third-section-paragraph{
+.paragraph-standards{
 
     background-color: rgba(255, 0, 0, 0.2);
     height: 100%;
